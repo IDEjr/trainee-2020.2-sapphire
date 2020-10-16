@@ -1,5 +1,5 @@
 import React from "react"
-import Help from "../Components/help-section"
+import Help from "../components/help-section"
 import GlobalStyle from "../../static/styles/globalstyle"
 
 export default function Home() {

@@ -3,9 +3,9 @@ import Card from "../Card";
 
 import { Container, CardWrapper } from "./styles";
 
-import HeartIcon from '../../../static/assets/heart.svg';
-import MoneyIcon from '../../../static/assets/money.svg';
-import VolunteerIcon from '../../../static/assets/volunteer.svg';
+import HeartIcon from '../../assets/svg/heart.svg';
+import MoneyIcon from '../../assets/svg/money.svg';
+import VolunteerIcon from '../../assets/svg/volunteer.svg';
 
 function Help() {
 
@@ -36,7 +36,7 @@ function Help() {
           <VolunteerIcon />
         </Card>
       </CardWrapper>
-      
+
     </Container>
   )
   

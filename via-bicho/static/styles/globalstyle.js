@@ -11,6 +11,7 @@ export default createGlobalStyle`
     }
 
 
+
     :root {
         --primary-color: #4188F2;
         --secondary-color: #FFF;
