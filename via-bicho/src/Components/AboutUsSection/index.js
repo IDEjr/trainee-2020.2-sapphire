@@ -2,7 +2,7 @@ import React from "react";
 import AboutUsText from "../AboutUsText"
 import SocialMedia from "../SocialMedia";
 import DogImageAboutUs from "../DogImageAboutUs"
-import { Container, TextColumn } from "./styles"
+import { Container, TextColumn, Dog } from "./styles"
 
 function AboutUsSection() {
     return (
@@ -11,7 +11,9 @@ function AboutUsSection() {
                 <AboutUsText />
                 <SocialMedia />
             </TextColumn>
-            <DogImageAboutUs />
+            <Dog>
+                <DogImageAboutUs/>
+            </Dog>
         </Container>
     )
 }

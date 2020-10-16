@@ -6,9 +6,8 @@ export const Container = styled.div`
     margin:0px;
     width:95%;
     justify-content:space-around;
-    padding-top:25px;
+    padding:25px 0px 0px 2.5%;
     flex-wrap:wrap;
-
 `;
 
 export const TextColumn = styled.div`
@@ -20,3 +19,16 @@ export const TextColumn = styled.div`
     }
 
 `;
+
+export const Dog = styled.div`
+    justify-self:center;
+    
+@media (max-width:400px){
+    
+    justify-self:center;
+}
+
+`;
+
+
+
