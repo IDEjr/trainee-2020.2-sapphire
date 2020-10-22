@@ -2,27 +2,31 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-    width: 52%;
+    width: 47%;
+    height: 4.5%;
             
     position: absolute;
-    left: auto;
-    right: 3%;
-    top: 1.5%;
+    right: 2.7%;
+    top: 4.5%;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    a {
-        color: white;
-        font-size: 2vw;
-        font-weight: bold;
+`;
 
-        cursor: pointer;
-        user-select: none;
-    }
+export const NavigationButton = styled.a`
 
-    a:hover {
+    color: white;
+    font-size: 3.2vh;
+
+    pointer-events: auto;
+    cursor: pointer;
+
+    &:hover {
         color: #4188F2;
     }
 
 `;
+
+

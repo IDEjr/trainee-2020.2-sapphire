@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Container } from "./styles";
+import { Container, NavigationButton } from "./styles";
 
 function NavigationBar() {
     return (
         <Container>
-            <a>Quem Somos</a>
-            <a>Como Adotar</a>
-            <a>Como Ajudar</a>
-            <a>Contato</a>
+            <NavigationButton>Quem Somos</NavigationButton>
+            <NavigationButton>Como Adotar</NavigationButton>
+            <NavigationButton>Como Ajudar</NavigationButton>
+            <NavigationButton>Contato</NavigationButton>
         </Container>
     )
 }
