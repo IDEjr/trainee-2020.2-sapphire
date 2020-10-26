@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Image = styled.img`
-    max-width: 300px;
-
+    max-width: 350px;
+    
     display: block;
 
     border-radius: 40px;

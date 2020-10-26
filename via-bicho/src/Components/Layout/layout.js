@@ -6,7 +6,7 @@ export const Container = styled.div`
     background-color: #4188f2;
 `
 export const ContentWrapper = styled.div`
-    max-width: 700px;
+    max-width: 800px;
 
     margin: 0 auto;
     padding: 50px 30px;
@@ -14,7 +14,4 @@ export const ContentWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    border: 1px solid black;
-
 `
