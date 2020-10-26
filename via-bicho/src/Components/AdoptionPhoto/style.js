@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Image = styled.img`
-    max-width: 350px;
+    max-width: 370px;
     
     display: block;
 
