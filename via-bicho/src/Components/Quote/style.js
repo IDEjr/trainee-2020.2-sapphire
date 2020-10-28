@@ -27,8 +27,9 @@ export const SpeechBubble = styled.div`
 `
 
 export const QuotationMarks = styled.p`
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 3em;
+    font-weight: regular;
     line-height: 0;
 `
 
@@ -43,7 +44,8 @@ export const Blockquote = styled.blockquote`
 export const Author = styled.p`
     margin-left: 25%;
     margin-top: 5px;
-    font-size: 0.9em;
+    font-size: 0.92em;
     font-family: Roboto, sans-serif;
     font-style: italic;
+    font-weight: 600;
 `
