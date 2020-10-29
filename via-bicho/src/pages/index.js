@@ -9,9 +9,11 @@ export default function Home(){
   return (
     <Container>
       <ContentWrapper>
+        <div>
         <Title />
-        <AdoptionPhoto />
         <Local />
+        </div>
+        <AdoptionPhoto />
         <GlobalStyle />
       </ContentWrapper>
     </Container>
