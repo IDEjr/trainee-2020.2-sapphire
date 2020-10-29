@@ -1,6 +1,7 @@
 import React from "react"
-import AboutUsSection from "../Components/AboutUsSection"
+import DeliverySpotsSection from "../Components/DeliverySpotsSection"
+import "./styles.css"
 
 export default function Home() {
-  return <AboutUsSection/>
+  return <DeliverySpotsSection/>
 }
