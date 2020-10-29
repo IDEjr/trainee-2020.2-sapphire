@@ -1,11 +1,11 @@
 import React from 'react'
-import GlobalStyle from '../../static/globalStyle'
-import { Container, ContentWrapper } from '../Components/Layout/layout'
-import Title from '../Components/Title/title'
-import AdoptionPhoto from '../Components/AdoptionPhoto/adoptionPhoto'
-import Local from '../Components/Map/map'
+import GlobalStyle from '../../../static/globalstyle'
+import { Container, ContentWrapper } from '../Layout/layout'
+import Title from '../Title/title'
+import AdoptionPhoto from '../AdoptionPhoto/adoptionPhoto'
+import Local from '../Map/map'
 
-export default function Home(){
+export default function AdoptionFairSection(){
   return (
     <Container>
       <ContentWrapper>

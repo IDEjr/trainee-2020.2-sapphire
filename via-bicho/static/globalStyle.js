@@ -1,11 +1,10 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-    * {
+    *, html {
         margin: 0;
         padding: 0;
-        border: none;
         box-sizing: border-box;
-        font-family: 'Secular One', 'sans-serif';
+        font-family: 'Secular One', sans-serif;
     }
 `
