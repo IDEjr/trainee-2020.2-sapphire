@@ -1,4 +1,6 @@
 import React from "react"
+import DeliverySpotsSection from "../Components/DeliverySpotsSection"
+import "./styles.css"
 import Help from "../components/help-section"
 import GlobalStyle from "../../static/styles/globalstyle"
 import AboutUsSection from "../Components/AboutUsSection"
@@ -9,11 +11,8 @@ export default function Home() {
     <>
       <HeroSection/>
       <AboutUsSection/>
-    
-      {/* Componentes */}
       <Help />
-
-      {/* Estilos globais */}
+      <DeliverySpotsSection/>
       <GlobalStyle />
     </>
   )
