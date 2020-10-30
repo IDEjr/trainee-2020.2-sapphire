@@ -36,6 +36,31 @@ export const ViaBichoLogo = styled.img`
 
 `;
 
+export const ActionButtons = styled.section`
+
+    pointer-events: auto;
+
+    position: absolute;
+    bottom: 18%;
+    left: 8%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 40%;
+    height: 7%;
+
+    Button {
+        width: 47%;
+    }
+
+    Button a {
+        font-size: 1.6rem;
+    }
+    
+`;
+
 export const DownArrow = styled.img`
 
     content: url(${ArrowImage});
