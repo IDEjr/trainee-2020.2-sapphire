@@ -36,6 +36,7 @@ export const BodyText = styled.div`
 
         @media (min-width:820px){
             height:200px;
+            justify-content:space-around;
         }
 
 
@@ -47,7 +48,7 @@ export const BodyText = styled.div`
             color: #7a7a7a;
 
             @media (max-width:820px){
-                margin:10px 5%;
+                margin:40px 5%;
             }
         }
 `;
