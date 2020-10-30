@@ -3,13 +3,17 @@ import styled from 'styled-components'
 export const SpeechBubble = styled.div`
     position: relative;
     width: 250px;
-    height: fit-content;
+    height: 170px;
     background: white;
     border-radius: .4em;
-    padding: 30px 15px 15px;
+    padding: 45px 15px 15px;
     left: 28%;
-    top: -10%;
+    top: -7%;
     filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+
+    @media (max-width: 900px){
+        top: -10%;
+    }
 
     &:after{
     content: '';

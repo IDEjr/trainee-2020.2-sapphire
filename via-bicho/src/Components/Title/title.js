@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image } from './style'
-import TitleImage from '../../../static/assets/images/adoption-fair.jpg'
+import TitleImage from '../../../static/assets/images/via-bicho-logo.jpg'
 
 export default function Title(){
     return(
